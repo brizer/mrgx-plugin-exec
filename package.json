@@ -1,6 +1,6 @@
 {
   "name": "mrgx-plugin-exec",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "exec plugin for mrgx",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/brizer/mrgx-plugin-exec#readme",
   "dependencies": {
-    "mrgx": "^1.10.0"
+    "mrgx": "^1.10.1"
   }
 }

@@ -1,7 +1,7 @@
 const { MrgLoop , Config } = require("mrgx");
 
-const exec = async (command)=>{
-    const configIns = new Config();
+const exec = async (program)=>{
+    const configIns = new Config({program});
     const projectList = await configIns.getProjectList()
     let cmdArr = process.argv.map( function(arg){
         return "'" + arg.replace(/'/g, "'\\''") + "'";
@@ -17,6 +17,6 @@ module.exports.register = async (program)=>{
     .description("do same action to list in config")
     .allowUnknownOption()
     .action(async command => {
-      await exec(command);
+      await exec(program);
     });
 }
