@@ -1,0 +1,23 @@
+{
+  "name": "mrgx-plugin-exec",
+  "version": "0.0.1-alpha.0",
+  "description": "exec plugin for mrgx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brizer/mrgx-plugin-exec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brizer/mrgx-plugin-exec/issues"
+  },
+  "homepage": "https://github.com/brizer/mrgx-plugin-exec#readme",
+  "dependencies": {
+    "mrgx": "^1.10.0"
+  }
+}
